@@ -1,0 +1,19 @@
+.text{
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(128, 123, 123);
+
+
+}
+.About{
+    background-color: black;
+    height: 900px;
+    background: url('./images/gym3.jpg') no-repeat center center/cover;
+    
+}
+
+.text-h{
+    font-weight: 400;
+    font-size: large;
+    color: rgb(165, 161, 161);
+}
