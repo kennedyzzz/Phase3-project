@@ -68,57 +68,57 @@ Trainers.create_table()
 
 
 trainer1 = Trainers(
-    name="John Doe",
+    name="Sam Sulek",
     description="Certified personal trainer specializing in strength training and conditioning.",
-    image_url="https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/20379125/pexels-photo-20379125/free-photo-of-a-man-training-in-a-gym.jpeg?auto=compress&cs=tinysrgb&w=600"
 )
 
 trainer2 = Trainers(
-    name="Jane Smith",
+    name="Lara Smith",
     description="Expert in yoga and pilates with over 10 years of experience.",
-    image_url="https://images.pexels.com/photos/703014/pexels-photo-703014.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/917653/pexels-photo-917653.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer3 = Trainers(
-    name="Mike Johnson",
+    name="Mike Leroy",
     description="Specialist in HIIT and cardiovascular fitness.",
-    image_url="https://images.pexels.com/photos/3490348/pexels-photo-3490348.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/23158705/pexels-photo-23158705/free-photo-of-vascular-sandeep.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer4 = Trainers(
-    name="Emily Davis",
+    name="Emily Scott",
     description="Nutritionist and wellness coach with a focus on holistic health.",
-    image_url="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/25853146/pexels-photo-25853146/free-photo-of-a-woman-is-standing-on-a-tennis-court-holding-a-racket.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer5 = Trainers(
-    name="David Brown",
+    name="David Walker",
     description="Strength and conditioning coach for athletes of all levels.",
-    image_url="https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer6 = Trainers(
     name="Sophia Martinez",
     description="Specializes in weight loss and body transformation programs.",
-    image_url="https://images.pexels.com/photos/28080/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/20694172/pexels-photo-20694172/free-photo-of-woman-squatting-in-gym-clothes.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer7 = Trainers(
     name="James Wilson",
     description="Experienced in functional fitness and mobility training.",
-    image_url="https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/20400628/pexels-photo-20400628/free-photo-of-man-in-pink-tank-top-at-gym.jpeg?auto=compress&cs=tinysrgb&w=600"
 )
 
 trainer8 = Trainers(
     name="Olivia Thomas",
     description="Senior fitness expert focusing on low-impact exercises.",
-    image_url="https://images.pexels.com/photos/949129/pexels-photo-949129.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/20418608/pexels-photo-20418608/free-photo-of-portrait-of-woman-in-top-at-gym.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer9 = Trainers(
     name="Lucas Garcia",
     description="Corporate wellness trainer with programs tailored for office workers.",
-    image_url="https://images.pexels.com/photos/903171/pexels-photo-903171.jpeg?auto=compress&cs=tinysrgb&w=600"
+    image_url="https://images.pexels.com/photos/20594791/pexels-photo-20594791/free-photo-of-man-working-out-at-a-gym.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
 
 trainer1.save()

@@ -22,7 +22,7 @@ function Trainers() {
               <div className="card h-100">
                 <img src={trainer.image_url} className="card-img-top" alt={trainer.name} />
                 <div className="card-body">
-                  <h5 className="card-title">{trainer.name}</h5>
+                  <h3 className="card-title">{trainer.name}</h3>
                   <p className="card-text">{trainer.description}</p>
                 </div>
               </div>

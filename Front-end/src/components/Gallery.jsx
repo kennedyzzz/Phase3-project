@@ -19,10 +19,10 @@ function Gallery() {
   return (
     <div>
       <Navbar/>
-      <div className="main">
+      <div className="gal">
         {images.map(image => (
-          <div className="card" key={image.id}>
-            <img src={image.image_url} alt="Gallery" className="card-img" />
+          <div className="sub" key={image.id}>
+            <img src={image.image_url} alt="Gallery" className="sub-img" />
           </div>
         ))}
       </div>

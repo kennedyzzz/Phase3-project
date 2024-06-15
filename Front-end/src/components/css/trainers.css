@@ -9,7 +9,7 @@
   }
   
   .card-img-top {
-    max-height: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
   }
@@ -17,4 +17,11 @@
   .card-body {
     padding: 15px;
   }
-  
+  .card-text{
+    font-style: italic;
+    font-size: large;
+  }
+  .card-title{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

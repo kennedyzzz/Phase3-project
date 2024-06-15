@@ -33,7 +33,7 @@ function Membership() {
             <img src={membership.image_url} alt={membership.name} className="card-img" />
             <h2>{membership.name}</h2>
             <p className="desc">{membership.description}</p>
-            <p className="pri">Price: {membership.price}</p>
+            <p className="pri">Price: Ksh {membership.price}</p>
             <button id={`purchase-button-${membership.id}`} className="purchase-button" onClick={() => handlePurchase(membership.id)}>
               Purchase
             </button>

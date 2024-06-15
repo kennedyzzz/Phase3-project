@@ -1,72 +1,60 @@
 .main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 10px;
-    background: url("./images/gym5.jpg") no-repeat center center/cover;
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  
-  .card {
-    border-radius: 10px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 250px;
-    width: 200px;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-  }
-  
-  .desc, .pri {
-    padding: 8px;
-    font-size: large;
-    font-style: italic;
-  }
-  
-  .pri {
-    font-weight: 600;
-  }
-  
-  .purchase-button {
-    background-color: #030303;
-    color: rgb(224, 209, 209);
-    padding: 10px;
-    border: none;
-    border-radius: 0 0 10px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-transform: uppercase;
-    margin-top: auto;
-  }
-  
-  .purchase-button:hover {
-    background-color: #141414;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  background: url("./images/gym6.jpg") no-repeat center center/cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.5em;
+  margin: 16px 0 8px;
+  text-align: center;
+}
+
+.card .desc,
+.card .pri {
+  margin: 0 16px 16px;
+  text-align: center;
+  font-style: italic;
+}
+
+.purchase-button {
+  background-color: #141414;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 4px;
+  align-self: center;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+.purchase-button:hover {
+  background-color: #0056b3;
+}
