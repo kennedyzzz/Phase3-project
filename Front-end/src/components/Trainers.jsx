@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './NavBar'
 
-function Equipment() {
+function Trainers() {
   return (
     <div>
         <Navbar/>
@@ -9,4 +9,4 @@ function Equipment() {
   )
 }
 
-export default Equipment
+export default Trainers

@@ -1,19 +1,22 @@
 .text{
     font-style: italic;
     font-size: 30px;
-    color: rgb(128, 123, 123);
+    color: rgb(22, 22, 22);
 
 
 }
 .About{
     background-color: black;
     height: 900px;
-    background: url('./images/gym3.jpg') no-repeat center center/cover;
+    background: url("./images/gym3.jpg") no-repeat center center/cover;
     
 }
 
 .text-h{
     font-weight: 400;
-    font-size: large;
-    color: rgb(165, 161, 161);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
 }

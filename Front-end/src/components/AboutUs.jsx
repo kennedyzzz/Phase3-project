@@ -10,7 +10,7 @@ function AboutUs() {
         <div class="row gx-5">
           <div class="col">
             <div class="p-3">
-              <img
+              <img className="img"
                 src="https://www.jengaleo.co.ke/wp-content/uploads/2022/05/Frame-94.jpg"
                 alt=""
               />
