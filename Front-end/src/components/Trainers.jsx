@@ -7,7 +7,7 @@ function Trainers() {
 
   useEffect(() => {
     fetch('http://127.0.0.1:8000/trainers')
-      .then((response) => response.json())
+      .then((res) => res.json())
       .then((data) => setTrainers(data.trainers))
       .catch((error) => console.error('Error fetching trainers:', error));
   }, []);

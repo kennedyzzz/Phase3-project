@@ -7,7 +7,7 @@ function Membership() {
 
   useEffect(() => {
     fetch("http://127.0.0.1:8000/membership")
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         setMemberships(data.memberships);
       })

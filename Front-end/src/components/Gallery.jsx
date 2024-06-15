@@ -7,7 +7,7 @@ function Gallery() {
 
   useEffect(() => {
     fetch("http://127.0.0.1:8000/gallery")
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         setImages(data.images);
       })

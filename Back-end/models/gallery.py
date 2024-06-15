@@ -64,10 +64,10 @@ class Gallery:
         row = cursor.fetchone()
         return cls.row_to_instance(row)
 
-# Create the table
+
 Gallery.create_table()
 
-# Add initial data
+
 image1 = Gallery(
     image_url="https://images.pexels.com/photos/4327024/pexels-photo-4327024.jpeg?auto=compress&cs=tinysrgb&w=400"
 )
