@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from models.membership import MembershipDetails
 from models.gallery import Gallery
+from models.trainers import Trainers
 app = FastAPI()
 
 app.add_middleware(
@@ -25,3 +26,8 @@ async def get_cards():
 async def get_images():
     images = Gallery.get_all()
     return {"images": [image.to_dict() for image in images]}
+
+@app.get("/trainers")
+async def get_trainers():
+    trainers = Trainers.get_all()
+    return {"trainers": [trainer.to_dict() for trainer in trainers]}
